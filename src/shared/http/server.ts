@@ -1,5 +1,5 @@
 import "reflect-metadata";
-import "../../database";
+import "../../database/migrations";
 import express, { NextFunction, Request, Response } from "express";
 import cors from "cors";
 import routes from "./routes";
